@@ -1,11 +1,17 @@
 <template>
-  <div>Helleo</div>
+  <div>
+    <services />
+  </div>
 </template>
 
 <script>
+import Services from "./components/Services/Services.vue";
+
 export default {
   name: "App",
-  components: {},
+  components: {
+    Services,
+  },
 };
 </script>
 
