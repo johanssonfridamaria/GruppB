@@ -1,6 +1,10 @@
 <template>
   <div>
-    <service-card />
+    <service-card
+      v-for="(service, index) in services"
+      :key="index"
+      service="service"
+    />
   </div>
 </template>
 
