@@ -1,23 +1,10 @@
 <template>
   <div class="col">
     <div class="card h-100">
+      <div class="circle text-center">
+        <img :src="service.img" alt="tooth icon" />
+      </div>
       <div class="card-body text-center">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="120"
-          height="120"
-          viewBox="0 0 120 120"
-        >
-          <circle
-            id="icon_background"
-            data-name="icon background"
-            cx="60"
-            cy="60"
-            r="60"
-            fill="#25e6c8"
-          />
-        </svg>
-        <img :src="service.img" alt="" />
         <h5 class="card-title">{{ service.title }}</h5>
         <p class="card-text">
           {{ service.body }}
@@ -34,5 +21,14 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.circle {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  background: var(--green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 </style>
