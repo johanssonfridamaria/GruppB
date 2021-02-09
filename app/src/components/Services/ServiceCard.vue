@@ -1,8 +1,10 @@
 <template>
   <div class="col">
     <div class="card h-100">
-      <div class="circle text-center">
-        <img :src="service.img" alt="tooth icon" />
+      <div class="card-body d-flex justify-content-center">
+        <div class="circle">
+          <img :src="service.img" alt="tooth icon" />
+        </div>
       </div>
       <div class="card-body text-center">
         <h5 class="card-title">{{ service.title }}</h5>
