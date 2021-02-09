@@ -1,7 +1,17 @@
-<template></template>
+<template>
+  <div>
+    <service-card />
+  </div>
+</template>
 
 <script>
-export default {};
+import ServiceCard from "./ServiceCard.vue";
+
+export default {
+  components: {
+    ServiceCard,
+  },
+};
 </script>
 
 <style>
