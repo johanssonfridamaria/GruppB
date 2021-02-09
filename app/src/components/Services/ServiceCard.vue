@@ -1,7 +1,7 @@
 <template>
   <div class="col">
     <div class="card h-100">
-      <div class="card-body">
+      <div class="card-body text-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="120"
