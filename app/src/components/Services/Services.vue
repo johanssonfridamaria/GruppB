@@ -1,9 +1,13 @@
 <template>
-  <div class="container">
-    <div class="border-bottom text-center">
-      <h1>Our Services</h1>
+  <div class="bg-ligthgrey py-5">
+    <div class="container">
+      <div
+        class="border-bottom text-center border-2 border-green headline m-auto mb-5"
+      >
+        <h2>Our Services</h2>
+      </div>
+      <card-container />
     </div>
-    <card-container />
   </div>
 </template>
 
@@ -65,5 +69,15 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.border-green {
+  border-color: var(--green) !important;
+}
+.headline {
+  width: 60%;
+  max-width: 30rem;
+}
+.bg-ligthgrey {
+  background: var(--ligthgrey);
+}
 </style>
