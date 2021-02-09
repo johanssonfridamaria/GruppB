@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div>Helleo</div>
 </template>
 
 <script>
