@@ -17,11 +17,8 @@
         />
       </svg>
       <img :src="service.img" alt="" />
-      <h5 class="card-title">Card Title {{ service.title }}</h5>
+      <h5 class="card-title">{{ service.title }}</h5>
       <p class="card-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolor
-        consequuntur molestias beatae ipsa commodi vero pariatur ullam autem
-        ratione?
         {{ service.body }}
       </p>
     </div>
