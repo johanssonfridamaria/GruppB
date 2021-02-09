@@ -11,6 +11,7 @@ export default {
   components: {
     ServiceCard,
   },
+  inject: ["services"],
 };
 </script>
 
