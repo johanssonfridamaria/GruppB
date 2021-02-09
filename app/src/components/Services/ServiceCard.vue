@@ -1,6 +1,6 @@
 <template>
   <div class="col">
-    <div class="card h-100 hover">
+    <div class="card h-100 p-4">
       <div class="card-body d-flex justify-content-center">
         <div class="circle">
           <img :src="service.img" alt="tooth icon" />
