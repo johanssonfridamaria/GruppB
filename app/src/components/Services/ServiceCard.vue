@@ -1,6 +1,6 @@
 <template>
   <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 hover">
       <div class="card-body d-flex justify-content-center">
         <div class="circle">
           <img :src="service.img" alt="tooth icon" />
@@ -32,5 +32,11 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.circle:hover {
+  background: var(--blue);
+}
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 </style>
