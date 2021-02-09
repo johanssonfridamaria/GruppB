@@ -1,6 +1,6 @@
 <template>
   <div class="col">
-    <div class="card">
+    <div class="card h-100">
       <div class="card-body">
         <svg
           xmlns="http://www.w3.org/2000/svg"
