@@ -3,7 +3,7 @@
     <service-card
       v-for="(service, index) in services"
       :key="index"
-      service="service"
+      :service="service"
     />
   </div>
 </template>
