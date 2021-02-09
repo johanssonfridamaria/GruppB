@@ -57,6 +57,11 @@ export default {
       ],
     };
   },
+  provide() {
+    return {
+      services: this.services,
+    };
+  },
 };
 </script>
 
