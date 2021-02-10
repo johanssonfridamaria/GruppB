@@ -33,7 +33,7 @@ export default {
   align-items: center;
   justify-content: center;
 }
-.circle:hover {
+.card:hover .circle {
   background: var(--blue);
 }
 .card:hover {
