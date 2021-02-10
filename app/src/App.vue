@@ -1,11 +1,15 @@
 <template>
-  <div></div>
+  <appointment />
 </template>
 
 <script>
+import Appointment from "./components/Appointment/Appointment.vue";
+
 export default {
   name: "App",
-  components: {},
+  components: {
+    Appointment,
+  },
 };
 </script>
 
