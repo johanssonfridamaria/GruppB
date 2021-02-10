@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'component',
+  name: 'Aboutus',
   components: {},
 };
 </script>
