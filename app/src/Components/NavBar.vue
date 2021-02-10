@@ -15,8 +15,8 @@
       <i class="fas fa-bars"></i>
     </button>
       <a class="navbar-brand" href="#"><img
-          src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png"
-          height="20"
+          src="../images/Logga.png"
+          height="75"
           alt=""
           loading="lazy"
           style="margin-top: 2px;"
