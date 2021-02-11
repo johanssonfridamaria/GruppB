@@ -34,11 +34,4 @@ export default {
 </script>
  
 <style>
-:root {
-  --green: #25e6c8;
-  --blue: #2baaec;
-  --ligthgrey: #f7f7f7;
-  --grey: #626262;
-  --black: #363636;
-}
 </style>
