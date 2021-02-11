@@ -2,7 +2,7 @@
   <div class="bg-ligthgrey py-5">
     <div class="container">
       <div
-        class="border-bottom text-center border-2 border-green headline m-auto mb-5"
+        class="border-bottom text-center border-2 border-success headline m-auto mb-5"
       >
         <h2>Our Services</h2>
       </div>
@@ -70,14 +70,11 @@ export default {
 </script>
 
 <style scoped>
-.border-green {
-  border-color: var(--green) !important;
-}
 .headline {
   width: 60%;
   max-width: 30rem;
 }
 .bg-ligthgrey {
-  background: var(--ligthgrey);
+  background: #f7f7f7;
 }
 </style>
