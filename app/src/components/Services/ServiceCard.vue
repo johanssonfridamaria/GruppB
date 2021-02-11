@@ -28,7 +28,7 @@ export default {
   width: 7rem;
   height: 7rem;
   border-radius: 50%;
-  background: var(--green);
+  background: #39c0ed;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,7 +39,7 @@ export default {
 }
 
 .card:hover .circle {
-  background: var(--blue);
+  background: #1266f1;
   box-shadow: 0 0 0 0.6rem rgba(47, 90, 230, 0.19);
 }
 .card:hover {
