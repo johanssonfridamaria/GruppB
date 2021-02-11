@@ -1,21 +1,21 @@
 <template>
   <div>
-  <nav-bar />
+    <nav-bar />
     <app-footer />
   </div>
 </template>
 
 <script>
 import AppFooter from "./components/Footer/AppFooter";
-import NavBar from './Components/NavBar';
+import NavBar from "./components/NavBar";
 
 export default {
   name: "App",
   components: {
-    AppFooter,
     NavBar,
+    AppFooter,
   },
 };
+</script>
 
-<style >
-</style>
+<style></style>;
