@@ -1,13 +1,19 @@
 <template>
-  <div></div>
+
+  <nav-bar />
+
 </template>
 
 <script>
-export default {
-  name: "App",
-  components: {},
-};
+
+import NavBar from './Components/NavBar';
+export default 
+{name: 'App',
+  components: {
+     NavBar
+      }
+  };
 </script>
 
-<style>
+<style >
 </style>
