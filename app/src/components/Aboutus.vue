@@ -8,7 +8,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, perspiciatis maiores. Animi delectus odio eum soluta in vero sint ab temporibus voluptas modi. Inventore, architecto accusamus corrupti perferendis expedita mollitia.
                 </p>
             <div class="skill">
-                <span ....>
+                <span>...
 
                 </span>
 
@@ -25,8 +25,7 @@ export default {
 };
 </script>
 
-Styling 
-<style>
+<style scoped>
 
 body{
     margin: 0;
@@ -39,7 +38,6 @@ body{
     justify-content: center;
     background-color: white;
 }   
-.about-section{}
 
 .inner-container{
     width: 55%;
@@ -81,5 +79,5 @@ body{
             width: 100%;
     }
 }
-}
+
 </style>

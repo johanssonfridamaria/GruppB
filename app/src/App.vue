@@ -1,15 +1,17 @@
 <template>
-
+  
 </template>
 
 <script>
+
+import Aboutus from './aboutus.vue'
 export default {
   name: "App",
-  components: {},
+  components: {Aboutus},
 };
-</script>
 
-Styling 
+</script>
+ 
 <style>
   
 </style>
