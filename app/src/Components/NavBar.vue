@@ -16,7 +16,7 @@
       </button>
       <a class="navbar-brand" href="#"
         ><img
-          src="../images/Logga.png"
+          src="../assets/img/Logga.png"
           height="60"
           alt=""
           loading="lazy"
