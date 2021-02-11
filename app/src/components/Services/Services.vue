@@ -2,7 +2,7 @@
   <div class="bg-ligthgrey py-5">
     <div class="container">
       <div
-        class="border-bottom text-center border-2 border-success headline m-auto mb-5"
+        class="border-bottom text-center border-2 border-info headline m-auto mb-5"
       >
         <h2>Our Services</h2>
       </div>
