@@ -1,11 +1,17 @@
 <template>
-  <div></div>
+  <div>
+<Topmenu/>
+  </div>
 </template>
 
 <script>
+import Topmenu from "./components/topmenu"
 export default {
   name: "App",
-  components: {},
+  components: {
+    Topmenu
+    
+  },
 };
 </script>
 
