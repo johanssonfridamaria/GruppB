@@ -1,7 +1,6 @@
 <template>
   <div>
-
-    <Topmenu/>
+    <topmenu />
     <nav-bar />
     <showcase />
     <services />
@@ -11,8 +10,8 @@
 </template>
 
 <script>
-import Topmenu from "./components/topmenu"
-import Showcase from './components/Showcase'
+import Topmenu from "./components/topmenu";
+import Showcase from "./components/Showcase";
 import Services from "./components/Services/Services";
 import AppFooter from "./components/Footer/AppFooter";
 import NavBar from "./components/NavBar";
@@ -26,15 +25,12 @@ export default {
     Services,
     NavBar,
     AppFooter,
-    Topmenu
-
+    Topmenu,
   },
 };
-
 </script>
 
 <style>
-
 :root {
   --green: #25e6c8;
   --blue: #2baaec;
@@ -42,5 +38,4 @@ export default {
   --grey: #626262;
   --black: #363636;
 }
-
 </style>
