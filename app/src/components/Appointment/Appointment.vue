@@ -1,5 +1,5 @@
 <template>
-  <div class="py-5 bg-blue">
+  <div class="py-5 bg-info">
     <div class="container">
       <div class="row justify-content-between align-items-center">
         <div
@@ -24,9 +24,6 @@ export default {};
 </script>
 
 <style scoped>
-.bg-blue {
-  background: #2baaec;
-}
 .btn {
   box-shadow: none !important;
   text-transform: none !important;
