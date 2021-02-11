@@ -2,6 +2,7 @@
   <div>
     <nav-bar />
       <services />
+      <appointment />
     <app-footer />
   </div>
 </template>
@@ -11,13 +12,16 @@
 import Services from "./components/Services/Services.vue";
 import AppFooter from "./components/Footer/AppFooter";
 import NavBar from "./components/NavBar";
+import Appointment from "./components/Appointment/Appointment.vue";
 
 export default {
   name: "App",
   components: {
+    Appointment,
    Services,
     NavBar,
     AppFooter,
+
   },
 };
 </script>
