@@ -1,16 +1,17 @@
 <template>
   <div>
+
+    <Topmenu/>
     <nav-bar />
     <showcase />
-      <services />
-      <appointment />
+    <services />
+    <appointment />
     <app-footer />
-
   </div>
 </template>
 
 <script>
-
+import Topmenu from "./components/topmenu"
 import Showcase from './components/Showcase'
 import Services from "./components/Services/Services.vue";
 import AppFooter from "./components/Footer/AppFooter";
@@ -22,15 +23,15 @@ export default {
   components: {
     Showcase,
     Appointment,
-   Services,
+    Services,
     NavBar,
     AppFooter,
+    Topmenu
 
   },
 };
 
 </script>
-
 
 <style>
 
