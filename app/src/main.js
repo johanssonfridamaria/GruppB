@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
+import Aboutus from './Aboutus.vue'
 
-Vue.config.productionTip = false
+Vue.component('app-aboutus', Aboutus);
 
 new Vue({
   render: h => h(App),

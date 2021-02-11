@@ -1,4 +1,5 @@
 <template>
+
   <div>
     <topmenu />
     <nav-bar />
@@ -7,6 +8,7 @@
     <appointment />
     <app-footer />
   </div>
+  
 </template>
 
 <script>
@@ -16,10 +18,12 @@ import Services from "./components/Services/Services";
 import AppFooter from "./components/Footer/AppFooter";
 import NavBar from "./components/NavBar";
 import Appointment from "./components/Appointment/Appointment";
+import Aboutus from './aboutus.vue'
 
 export default {
   name: "App",
   components: {
+    Aboutus,
     Showcase,
     Appointment,
     Services,
@@ -29,8 +33,9 @@ export default {
   },
 };
 </script>
-
+ 
 <style>
+ 
 :root {
   --green: #25e6c8;
   --blue: #2baaec;
