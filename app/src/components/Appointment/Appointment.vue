@@ -30,12 +30,12 @@ export default {};
 }
 .btn-white {
   background: #fff;
-  color: #2baaec;
+  color: #39c0ed;
   border: 0.1rem solid transparent;
   border-radius: 0.5rem;
 }
 .btn-white:hover {
-  background: #2baaec;
+  background: #39c0ed;
   color: #fff;
   border: 0.1rem solid #fff;
 }
