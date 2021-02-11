@@ -13,10 +13,10 @@
 <script>
 import Topmenu from "./components/topmenu"
 import Showcase from './components/Showcase'
-import Services from "./components/Services/Services.vue";
+import Services from "./components/Services/Services";
 import AppFooter from "./components/Footer/AppFooter";
 import NavBar from "./components/NavBar";
-import Appointment from "./components/Appointment/Appointment.vue";
+import Appointment from "./components/Appointment/Appointment";
 
 export default {
   name: "App",
