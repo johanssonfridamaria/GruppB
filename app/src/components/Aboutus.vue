@@ -1,20 +1,34 @@
 <template>
-  <div>
-    <div class="about-section">
-      <div class="inner-container">
-        <h1>About us</h1>
-        <p class="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-          perspiciatis maiores. Animi delectus odio eum soluta in vero sint ab
-          temporibus voluptas modi. Inventore, architecto accusamus corrupti
-          perferendis expedita mollitia.
-        </p>
-        <div class="skill">
-          <span>... </span>
-        </div>
-      </div>
-    </div>
-  </div>
+   <div>
+            <div class="about-section">
+              <div class="inner-container">
+                <p class="headline">Dential<span style="color: aqua;">Clinic</span> is a modern medical and dental clinic
+                </p>
+                  
+                  <p class="text">
+                    The DentialClinic Center located in the city of Stockholm is one of the most modern 
+                    dentistry in Sweden. It was created for demanding patients who expect the 
+                    highest quality of services combined with comfort and a plesqant atmosphere.
+        
+                    The highest-class dental equipment possessed by the DentialClinic center enables
+                    complicated procedures to be carried out. In our dental practice we combine passion,
+                    technology and quality. We strive to fulfill your dreams of a wonderful smile.
+                  </p>
+                  
+                  <p class="numbers">
+                    <span >9 850</span>
+                    <span >12 890</span>
+                    <span >24/7</span>
+
+                  <p class="subtext">
+                    <span>Happy clients</span>
+                    <span>Performed treatments</span>
+                    <span>Open clinic</span>
+                  </p>
+                </p>
+              </div>
+            </div>
+          </div>
 </template>
 
 <script>
@@ -25,6 +39,7 @@ export default {
 </script>
 
 <style scoped>
+
 body {
   margin: 0;
   padding: 0;
@@ -32,49 +47,79 @@ body {
   box-sizing: border-box;
   min-height: 100vh;
   display: flex;
-  align-content: center;
-  justify-content: center;
+  align-content: left;
+  justify-content: left;
   background-color: white;
 }
 
-.inner-container {
-  width: 55%;
-  float: none;
-  background-color: white;
-  padding: 150px;
-}
-.inner-container h1 {
-  margin-bottom: 30px;
-  font-size: 30px;
-  font-weight: 900;
-}
-.text {
-  font-size: 13px;
-  color: black;
-  line-height: 30px;
-  text-align: justify;
-  margin-bottom: 40px;
-}
-@media screen and (max-width: 1200px) {
-  .inner-container {
-    padding: 80px;
-  }
-}
-@media screen and (max-width: 1000px) {
   .about-section {
-    background-size: 100%;
-    padding: 100px 40px;
+      background: url(Aboutus.png) no-repeat right;
+      background-size: 55%;
+      overflow: hidden;
+      
   }
   .inner-container {
-    width: 100%;
+    width: 55%;
+    float: left;
+    padding-bottom: 264px;
+    margin-left: 0px;
+  
   }
+  .headline {
+    margin-bottom: 1px;
+    font-size: 70px;
+    font-weight: 0;
+    
+  }
+  
+  .text {
+    font-size: 26px;
+    color: grey;
+    line-height: 30px;
+  }    
+    
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    font-size: 65px;
+    color: aqua;
+    line-height: 30px;
+   
+    text-align: center;
+    margin-bottom: 40px;
 }
-@media screen and (max-width: 600px) {
-  .about-section {
-    padding: 0;
+.subtext{
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+    color:black;
+    line-height: 30px;
+   
+    text-align: center;
+    margin-bottom: 0px;
+}
   }
-  .inner-container {
-    width: 100%;
+  @media screen and (max-width: 1200px) {
+    .inner-container {
+      padding: 80px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .about-section {
+      background-size: 100%;
+      padding: 100px 40px;
+    }
+    .inner-container {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .about-section {
+      padding: 0;
+    }
+    .inner-container {
+      width: 100%;
+    }
   }
 }
 </style>
