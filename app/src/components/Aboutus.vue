@@ -2,7 +2,7 @@
    <div>
             <div class="about-section">
               <div class="inner-container">
-                <p class="headline">Dential<span style="color: aqua;">Clinic</span> is a modern medical and dental clinic
+                <p class="headline" id="about">Dential<span style="color: aqua;">Clinic</span> is a modern medical and dental clinic
                 </p>
                   
                   <p class="text">
@@ -29,6 +29,7 @@
               </div>
             </div>
           </div>
+
 </template>
 
 <script>

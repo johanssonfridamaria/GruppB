@@ -28,13 +28,19 @@ export default {
   width: 7rem;
   height: 7rem;
   border-radius: 50%;
-  background: var(--green);
+  background: #39c0ed;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: box-shadow 0.3s ease-out;
 }
+.card {
+  transition: 0.3s ease-out 0.3s;
+}
+
 .card:hover .circle {
-  background: var(--blue);
+  background: #1266f1;
+  box-shadow: 0 0 0 0.6rem rgba(47, 90, 230, 0.19);
 }
 .card:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
