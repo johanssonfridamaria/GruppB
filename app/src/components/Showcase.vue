@@ -24,9 +24,10 @@
           />
         <div class="carousel-caption d-none d-md-block">
           <div class="container">
-            <h1>Modern technologies ensure safety</h1>
-            <h3>Nulla vitae elit libero, a pharetra augue mollis interdum.</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h1 class="headline-carousel">Modern technologies ensure safety</h1>
+            <!-- <h3>Nulla vitae elit libero, a pharetra augue mollis interdum.</h3> -->
+            <p>Our clinic is equipped with the highest quality medical and dental equipment,
+which allows for quick and effective treatment of the patient.</p>
             <!-- <a href="./Aboutus.vue" class="btn btn-lg btn-primary">About our clinic</a> -->
           </div>
           <div class="container">
@@ -44,9 +45,10 @@
         />
         <div class="carousel-caption d-none d-md-block">
           <div class="container">
-            <h1>Modern technologies ensure safety</h1>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h1 class="headline-carousel">Modern technologies ensure safety</h1>
+            <!-- <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3> -->
+            <p>Our clinic is equipped with the highest quality medical and dental equipment,
+which allows for quick and effective treatment of the patient.</p>
             <a href="#about" class="btn btn-lg btn-info">About our clinic</a>
           </div>
         </div>
@@ -61,9 +63,10 @@
         />
         <div class="carousel-caption d-none d-md-block">
           <div class="container">
-            <h1>Modern technologies ensure safety</h1>
-            <h3>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h1 class="headline-carousel ">Modern technologies ensure safety</h1>
+            <!-- <h3>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</h3> -->
+            <p>Our clinic is equipped with the highest quality medical and dental equipment,
+which allows for quick and effective treatment of the patient.</p>
             <a href="#about" class="btn btn-lg btn-info">About our clinic</a>
           </div>
         </div>
@@ -103,18 +106,14 @@ export default {
 
 <style scoped>
 
+.headline-carousel{
+  font-size: 3.5rem;
+}
 .carousel-item {
   position: relative;
-  height: 50rem;
 
 }
-@media screen and (max-width: 700px) {
-  .carousel-item {
-    max-height: 20rem;
-  }
 
-  
-}
 .container {
   padding-bottom: 50px;
 }

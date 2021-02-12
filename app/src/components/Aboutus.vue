@@ -1,31 +1,34 @@
 <template>
-   <div>
-            <div class="about-section">
+  <div class="about-section ">
+   <div class="container">
               <div class="inner-container">
-                <p class="headline" id="about">Dential<span style="color: aqua;">Clinic</span> is a modern medical and dental clinic
-                </p>
+                <div class="border-bottom border-4 border-info headline mb-3">
+                <h1 id="about" class="h1">Dential<span style="color: aqua;">Clinic</span> is a modern medical and dental clinic
+                </h1>
+                </div>
                   
-                  <p class="text">
+                  <p class="pb-5">
                     The DentialClinic Center located in the city of Stockholm is one of the most modern 
                     dentistry in Sweden. It was created for demanding patients who expect the 
-                    highest quality of services combined with comfort and a plesqant atmosphere.
+                    highest quality of services combined with comfort and a pleasant atmosphere.
         
                     The highest-class dental equipment possessed by the DentialClinic center enables
                     complicated procedures to be carried out. In our dental practice we combine passion,
                     technology and quality. We strive to fulfill your dreams of a wonderful smile.
                   </p>
                   
-                  <p class="numbers">
+                  <h2 class="numbers">
                     <span >9 850</span>
                     <span >12 890</span>
                     <span >24/7</span>
+                  </h2>  
 
                   <p class="subtext">
                     <span>Happy clients</span>
                     <span>Performed treatments</span>
                     <span>Open clinic</span>
                   </p>
-                </p>
+                
               </div>
             </div>
           </div>
@@ -41,53 +44,36 @@ export default {
 
 <style scoped>
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Open Sans", sans-serif;
-  box-sizing: border-box;
-  min-height: 100vh;
-  display: flex;
-  align-content: left;
-  justify-content: left;
-  background-color: white;
-}
-
   .about-section {
-      background: url(Aboutus.png) no-repeat right;
-      background-size: 55%;
+      background: url("../assets/img/AboutUs.png") no-repeat right;
+      background-size: 40%;
       overflow: hidden;
+      /* height: 40rem; */
+      padding: 5rem 0;
       
   }
+
+  .h1{
+    width: 80%;
+  }
+
+  .headline {
+  width: 100%;
+  max-width: 50rem;
+}
   .inner-container {
     width: 55%;
     float: left;
-    padding-bottom: 264px;
-    margin-left: 0px;
   
   }
-  .headline {
-    margin-bottom: 1px;
-    font-size: 70px;
-    font-weight: 0;
-    
-  }
-  
-  .text {
-    font-size: 26px;
-    color: grey;
-    line-height: 30px;
-  }    
-    
+
 .numbers{
     display: flex;
     justify-content: space-between;
-    font-size: 65px;
     color: aqua;
-    line-height: 30px;
-   
+    /* line-height: 30px; */
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 1rem;
 }
 .subtext{
     display: flex;
@@ -99,28 +85,25 @@ body {
     text-align: center;
     margin-bottom: 0px;
 }
-  }
+/*   
   @media screen and (max-width: 1200px) {
     .inner-container {
       padding: 80px;
     }
-  }
+  } */
   @media screen and (max-width: 1000px) {
     .about-section {
-      background-size: 100%;
-      padding: 100px 40px;
+      background-size: 0;
     }
-    .inner-container {
-      width: 100%;
-    }
+
   }
   @media screen and (max-width: 600px) {
-    .about-section {
+    /* .about-section {
       padding: 0;
-    }
+    } */
     .inner-container {
       width: 100%;
     }
   }
-}
+
 </style>

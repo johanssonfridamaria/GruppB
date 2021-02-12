@@ -2,9 +2,9 @@
   <div class="bg-ligthgrey py-5">
     <div class="container">
       <div
-        class="border-bottom text-center border-2 border-info headline m-auto mb-5"
+        class="border-bottom text-center border-4 border-info headline m-auto mb-5"
       >
-        <h2 id="services">Our Services</h2>
+        <h1 id="services">Our Services</h1>
       </div>
       <card-container />
     </div>
