@@ -2,7 +2,7 @@
   <div>
     <div class="about-section">
       <div class="inner-container">
-        <h1>About us</h1>
+        <h1 id="about">About us</h1>
         <p class="text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
           perspiciatis maiores. Animi delectus odio eum soluta in vero sint ab

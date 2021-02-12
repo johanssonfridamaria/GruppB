@@ -30,13 +30,13 @@
             <a class="nav-link" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">About</a>
+            <a class="nav-link" aria-current="page" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Services</a>
+            <a class="nav-link" aria-current="page" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Contact</a>
+            <a class="nav-link" aria-current="page" href="#contact">Contact</a>
           </li>
         </ul>
         <!-- Right links -->
