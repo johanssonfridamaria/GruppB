@@ -31,13 +31,20 @@ export default {
     Topmenu,
   },
   created() {
-    window.location = '#'
-  }
+    window.location = "#";
+  },
 };
 </script>
  
 <style>
-p{
+:root {
+  --green: #25e6c8;
+  --blue: #2baaec;
+  --ligthgrey: #f7f7f7;
+  --grey: #626262;
+  --black: #363636;
+}
+p {
   font-size: 1.2rem;
 }
 </style>
