@@ -1,6 +1,6 @@
 <template>
   <div class="py-5 bg-blue">
-    <div class="container">
+    <div id="contact" class="container">
       <div class="row justify-content-between align-items-center">
         <div
           class="col-12 col-md-8 d-flex justify-content-center justify-content-md-start"
